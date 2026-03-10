@@ -1,4 +1,4 @@
-package todo.authz
+package todo
 
 default allow = false
 
