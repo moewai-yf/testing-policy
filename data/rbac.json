@@ -1,0 +1,15 @@
+{
+  "rbac": {
+    "user_roles": {
+      "alice": ["admin"],
+      "bob": ["viewer"]
+    },
+    "role_permissions": {
+      "admin": [
+        { "resource": "unit", "action": "view" },
+        { "resource": "unit", "action": "edit" }
+      ],
+      "viewer": [{ "resource": "unit", "action": "view" }]
+    }
+  }
+}
